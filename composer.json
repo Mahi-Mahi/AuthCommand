@@ -1,0 +1,15 @@
+{
+    "name": "mahimahi/auth-command",
+    "description": "Command cli to create/manage users",
+    "require": {
+        "laravel/laravel": "5.4",
+        "cerbero/command-validator": "^1.0@dev"
+    },
+    "authors": [
+        {
+            "name": "Olivier Mourlevat",
+            "email": "olivier.mourlevat@mahi-mahi.fr"
+        }
+    ],
+    "minimum-stability": "dev"
+}
