@@ -11,5 +11,5 @@
             "email": "olivier.mourlevat@mahi-mahi.fr"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
