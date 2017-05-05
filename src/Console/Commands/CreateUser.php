@@ -56,7 +56,7 @@ class CreateUser extends Command
 			'password'  =>  Hash::make($password)
 		]);
 
-		$this->info(print_r($user));
+		$this->info("Created user ".$user->name". (".$user->email.")");
 	}
 
     public function rules()
