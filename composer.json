@@ -24,5 +24,12 @@
             "MahiMahi\\AuthCommand\\": "src"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "extras": {
+        "laravel": {
+            "providers": [
+                "MahiMahi\\AuthCommand\\AuthCommandServiceProvider"
+            ]
+        }
+    }
 }
